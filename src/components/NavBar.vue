@@ -3,7 +3,7 @@
     <img src="../../Rick and Morty.png" alt="">
 
     <div class="">
-      <h2>Rick & Morty Api</h2>
+      <h2 class="text-white">Rick & Morty Api</h2>
     </div>
   </nav>
 </template>

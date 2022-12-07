@@ -20,7 +20,7 @@ export default {
   },
   mounted : function() {
     
-    axios.get('https://swapi.dev/api/people/')
+    axios.get('https://rickandmortyapi.com/api/character')
     .then((res) => {
       console.log(res.data.results);
       this.store.cardList = res.data.results;

@@ -8,14 +8,18 @@
 
       };
     },
+    props : {
+      character : Object
+    }
   }
 </script>
 
-<template>
+<template>  
   <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" :src="`${character.image}`" alt="">
     <div class="card-body">
-      <h5 class="card-title"></h5>
+      <h5 class="card-title">{{character.name}}</h5>
+      <p>{{character.species}}</p>
     </div>
   </div>
 </template>
